@@ -4,9 +4,9 @@ public class Powerof2 {
 
 public static void main(String [] args) {
 	    
-	    Scanner scan = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 	    System.out.println("Enter N: ");
-	    int pow = scan.nextInt();
+	    int pow = scanner.nextInt();
 
 	    if( pow <= 0 || pow <=31){
 
