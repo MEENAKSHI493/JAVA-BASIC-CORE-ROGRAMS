@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Leapyear {
 	public static void main(String[] args) {
 			System.out.println("Enter any 4 digit Year");
-			Scanner sc= new Scanner(System.in);
-		    double year = sc.nextDouble();
-		   sc.close();
+			Scanner scanner= new Scanner(System.in);
+		    double year = scanner.nextDouble();
+		   scanner.close();
 		    if(year>999 && year<9999)
 		    {
 		    boolean leap = false;
